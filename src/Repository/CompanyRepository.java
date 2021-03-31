@@ -7,13 +7,13 @@ public class CompanyRepository {
 
 
     public void addCompany(Company company) {
-    companies.add(company);
+        companies.add(company);
 
     }
 
 
     public ArrayList<Company> findCompanies() {
-            return companies;
+        return companies;
 
     }
 
