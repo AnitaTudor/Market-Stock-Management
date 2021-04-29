@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class CompanyRepository {
 
     ArrayList<Company> companies= new ArrayList<Company>();
-
+    private static CompanyRepository instance = null;
 
     public void addCompany(Company company) {
         companies.add(company);
@@ -45,5 +45,12 @@ public class CompanyRepository {
 
         }
     }
+
+    public static CompanyRepository getInstance() {
+        if (instance == null)
+            instance = new CompanyRepository();
+        return instance;    
+    }
+
 
 }

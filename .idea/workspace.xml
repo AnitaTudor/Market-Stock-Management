@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83be1a48-f2b1-4fe3-b8b5-a770da99c84f" name="Default Changelist" comment="" />
+    <list default="true" id="83be1a48-f2b1-4fe3-b8b5-a770da99c84f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/CompanyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/DescriptionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/DescriptionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/LocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/LocationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ProductNameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductNameRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ProviderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProviderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/StockRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/StockRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ProductService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,16 +53,36 @@
       <option name="presentableId" value="Default" />
       <updated>1617208306679</updated>
       <workItem from="1617208311358" duration="718000" />
+      <workItem from="1617209405994" duration="174000" />
+      <workItem from="1617209660745" duration="8000" />
+      <workItem from="1619608373151" duration="12199000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Market-Stock-Management" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1617209507966">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1617209507966" />
     <state x="277" y="75" key="SettingsEditor" timestamp="1617209458419">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1617209458419" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1619608404374">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1619608404374" />
+    <state x="462" y="30" width="740" height="804" key="find.popup" timestamp="1619622310391">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="462" y="30" width="740" height="804" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1619622310391" />
   </component>
 </project>

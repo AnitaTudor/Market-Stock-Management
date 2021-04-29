@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 public class CategoryRepository {
 
+    private static CategoryRepository instance=null;
     ArrayList<Category> categories= new ArrayList<Category>();
 
 
@@ -47,6 +48,13 @@ public class CategoryRepository {
 
         }
     }
+
+    public static CategoryRepository getInstance() {
+        if (instance == null)
+            instance = new CategoryRepository();
+        return instance;
+    }
+
 
 
 }
