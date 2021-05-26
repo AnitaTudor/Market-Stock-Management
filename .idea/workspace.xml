@@ -3,20 +3,51 @@
   <component name="ChangeListManager">
     <list default="true" id="83be1a48-f2b1-4fe3-b8b5-a770da99c84f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/ProductName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ProductName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/CompanyRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/DescriptionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/DescriptionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/LocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/LocationRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/ProductNameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductNameRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ProviderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProviderRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/StockRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/StockRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_market_management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/stock_market_management.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="marketstock: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,18 +60,44 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qWvkxGNOplkBAWbGWd77olnFQg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysql-connector-java-8.0.21" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
+      <module name="stock_market_management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,6 +113,9 @@
       <workItem from="1617209405994" duration="174000" />
       <workItem from="1617209660745" duration="8000" />
       <workItem from="1619608373151" duration="12199000" />
+      <workItem from="1620812639808" duration="337000" />
+      <workItem from="1620816741392" duration="30000" />
+      <workItem from="1621933617199" duration="43344000" />
     </task>
     <servers />
   </component>
@@ -68,21 +128,65 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1617209507966">
+    <state x="361" y="91" key="#SQL_Dialects" timestamp="1621938436060">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1617209507966" />
-    <state x="277" y="75" key="SettingsEditor" timestamp="1617209458419">
+    <state x="361" y="91" key="#SQL_Dialects/0.0.1536.864@0.0.1536.864" timestamp="1621938436060" />
+    <state x="474" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621938424113">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="277" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1617209458419" />
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1619608404374">
+    <state x="474" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1621938424113" />
+    <state x="538" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1622031102281">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1619608404374" />
+    <state x="538" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1622031102281" />
+    <state x="527" y="192" key="DetectedRootsChooserDialog" timestamp="1621936522987">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="527" y="192" key="DetectedRootsChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1621936522987" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1621936519841">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1621936519841" />
+    <state width="1493" height="126" key="GridCell.Tab.0.bottom" timestamp="1622033693243">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="126" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622033693243" />
+    <state width="1493" height="126" key="GridCell.Tab.0.center" timestamp="1622033693243">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="126" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622033693243" />
+    <state width="1493" height="126" key="GridCell.Tab.0.left" timestamp="1622033693243">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="126" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622033693243" />
+    <state width="1493" height="126" key="GridCell.Tab.0.right" timestamp="1622033693243">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="126" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622033693243" />
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1621938500572">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.864@0.0.1536.864" timestamp="1621938500572" />
+    <state x="243" y="0" key="SettingsEditor" timestamp="1621936537747">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="243" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1621936537747" />
+    <state x="405" y="123" key="com.intellij.database.dbimport.ImportDialog" timestamp="1621961197916">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="405" y="123" key="com.intellij.database.dbimport.ImportDialog/0.0.1536.864@0.0.1536.864" timestamp="1621961197916" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1621933637434">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1621933637434" />
     <state x="462" y="30" width="740" height="804" key="find.popup" timestamp="1619622310391">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="462" y="30" width="740" height="804" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1619622310391" />
+    <state x="209" y="53" key="new project wizard" timestamp="1621936350798">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="209" y="53" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1621936350798" />
   </component>
 </project>

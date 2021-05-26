@@ -10,6 +10,7 @@ public class Category {
             this.id = id;
             this.name = name;
             this.description = description;
+
         }
 
         public Integer getId() {
@@ -31,5 +32,14 @@ public class Category {
         public void setDescription(Description description) {
             this.description = description;
         }
+
+    @Override
+    public String toString() {
+        return "Category{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description=" + description +
+                '}';
     }
+}
 

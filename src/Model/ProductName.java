@@ -2,14 +2,20 @@
 package Model;
 
 public class ProductName {
+    private final Integer id;
     private String companyName;
     private String product;
-    private Description description;
 
-    public ProductName(String companyName, String product, Description description) {
+
+    public ProductName(Integer id,String companyName, String product) {
+        this.id = id;
         this.companyName = companyName;
         this.product = product;
-        this.description = description;
+
+    }
+
+    public Integer getId() {
+        return id;
     }
 
     public String getCompanyName() {
@@ -28,11 +34,4 @@ public class ProductName {
         this.product = product;
     }
 
-    public Description getDescription() {
-        return description;
-    }
-
-    public void setDescription(Description description) {
-        this.description = description;
-    }
 }
